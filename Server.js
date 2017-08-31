@@ -6,7 +6,7 @@ var ServerIP = '127.0.0.1',
 
 var Server = http.createServer(function (request , response) {
     console.log("Request Recieved" + request.url);
-    console.log(request.url.substring(6, 8))
+    console.log(request.url.substring(6, 9))
     var SampleJsonData = JSON.stringify([{"ElementName":"ElementValue"}]);
     response.end('_testcb(' + SampleJsonData + ')'); // this is the postbackmethod
    }); 
