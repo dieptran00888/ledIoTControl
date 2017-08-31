@@ -7,19 +7,24 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ledSegmentedControl: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        print(ledSegmentedControl.titleForSegment(at: Int(ledSegmentedControl.selectedSegmentIndex)))
     }
 
+    @IBAction func onSegmentedControlClicked(_ sender: Any) {
+        let parameters:Parameters = ["led": ledSegmentedControl.titleForSegment(at: Int(ledSegmentedControl.selectedSegmentIndex))!]
+        print(Alamofire.request("http://localhost:8080", method: .get, parameters: parameters))
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
-
 
 }
 

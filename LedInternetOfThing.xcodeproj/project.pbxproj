@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990A47E7AD1113FC3BAFF73C /* Pods_LedInternetOfThingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B16ECC244EC7D10E1285E0F /* Pods_LedInternetOfThingTests.framework */; };
+		A7BBBF62481869B7D8EE7351 /* Pods_LedInternetOfThing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704373BAC006A3544336B690 /* Pods_LedInternetOfThing.framework */; };
 		D58F96131F541ED60091F9E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58F96121F541ED60091F9E2 /* AppDelegate.swift */; };
 		D58F96151F541ED60091F9E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58F96141F541ED60091F9E2 /* ViewController.swift */; };
 		D58F96181F541ED60091F9E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58F96161F541ED60091F9E2 /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41076F998B916D3B74E2CCDC /* Pods-LedInternetOfThing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LedInternetOfThing.release.xcconfig"; path = "Pods/Target Support Files/Pods-LedInternetOfThing/Pods-LedInternetOfThing.release.xcconfig"; sourceTree = "<group>"; };
+		423D244D97A37BB8A45934E3 /* Pods-LedInternetOfThingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LedInternetOfThingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LedInternetOfThingTests/Pods-LedInternetOfThingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		704373BAC006A3544336B690 /* Pods_LedInternetOfThing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LedInternetOfThing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B16ECC244EC7D10E1285E0F /* Pods_LedInternetOfThingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LedInternetOfThingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD072B40705D67E296ED9C9 /* Pods-LedInternetOfThing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LedInternetOfThing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LedInternetOfThing/Pods-LedInternetOfThing.debug.xcconfig"; sourceTree = "<group>"; };
 		D58F960F1F541ED60091F9E2 /* LedInternetOfThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedInternetOfThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58F96121F541ED60091F9E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D58F96141F541ED60091F9E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		D58F96231F541ED60091F9E2 /* LedInternetOfThingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LedInternetOfThingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58F96271F541ED60091F9E2 /* LedInternetOfThingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedInternetOfThingTests.swift; sourceTree = "<group>"; };
 		D58F96291F541ED60091F9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF08ECEA9A0DA168C2336643 /* Pods-LedInternetOfThingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LedInternetOfThingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LedInternetOfThingTests/Pods-LedInternetOfThingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BBBF62481869B7D8EE7351 /* Pods_LedInternetOfThing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990A47E7AD1113FC3BAFF73C /* Pods_LedInternetOfThingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87CD6F321A6B5B3589CC382D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BD072B40705D67E296ED9C9 /* Pods-LedInternetOfThing.debug.xcconfig */,
+				41076F998B916D3B74E2CCDC /* Pods-LedInternetOfThing.release.xcconfig */,
+				423D244D97A37BB8A45934E3 /* Pods-LedInternetOfThingTests.debug.xcconfig */,
+				FF08ECEA9A0DA168C2336643 /* Pods-LedInternetOfThingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D58F96061F541ED60091F9E2 = {
 			isa = PBXGroup;
 			children = (
 				D58F96111F541ED60091F9E2 /* LedInternetOfThing */,
 				D58F96261F541ED60091F9E2 /* LedInternetOfThingTests */,
 				D58F96101F541ED60091F9E2 /* Products */,
+				87CD6F321A6B5B3589CC382D /* Pods */,
+				E6CC7FE979FB67757D2FC9EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,15 @@
 			path = LedInternetOfThingTests;
 			sourceTree = "<group>";
 		};
+		E6CC7FE979FB67757D2FC9EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				704373BAC006A3544336B690 /* Pods_LedInternetOfThing.framework */,
+				8B16ECC244EC7D10E1285E0F /* Pods_LedInternetOfThingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D58F962C1F541ED60091F9E2 /* Build configuration list for PBXNativeTarget "LedInternetOfThing" */;
 			buildPhases = (
+				F5A46E1EC9367633EE5F17C8 /* [CP] Check Pods Manifest.lock */,
 				D58F960B1F541ED60091F9E2 /* Sources */,
 				D58F960C1F541ED60091F9E2 /* Frameworks */,
 				D58F960D1F541ED60091F9E2 /* Resources */,
+				99139443472D4EC64DF9D98A /* [CP] Embed Pods Frameworks */,
+				6E1DD4EDE244B4731DB05F04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D58F962F1F541ED60091F9E2 /* Build configuration list for PBXNativeTarget "LedInternetOfThingTests" */;
 			buildPhases = (
+				013446F3FDCFEDC0AC20E172 /* [CP] Check Pods Manifest.lock */,
 				D58F961F1F541ED60091F9E2 /* Sources */,
 				D58F96201F541ED60091F9E2 /* Frameworks */,
 				D58F96211F541ED60091F9E2 /* Resources */,
+				711E7A4C7DBF0E9317363674 /* [CP] Embed Pods Frameworks */,
+				48865CDBCE886F3BA1470B24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013446F3FDCFEDC0AC20E172 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		48865CDBCE886F3BA1470B24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LedInternetOfThingTests/Pods-LedInternetOfThingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1DD4EDE244B4731DB05F04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LedInternetOfThing/Pods-LedInternetOfThing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		711E7A4C7DBF0E9317363674 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LedInternetOfThingTests/Pods-LedInternetOfThingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99139443472D4EC64DF9D98A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LedInternetOfThing/Pods-LedInternetOfThing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A46E1EC9367633EE5F17C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D58F960B1F541ED60091F9E2 /* Sources */ = {
@@ -339,6 +470,7 @@
 		};
 		D58F962D1F541ED60091F9E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD072B40705D67E296ED9C9 /* Pods-LedInternetOfThing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LedInternetOfThing/Info.plist;
@@ -351,6 +483,7 @@
 		};
 		D58F962E1F541ED60091F9E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41076F998B916D3B74E2CCDC /* Pods-LedInternetOfThing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LedInternetOfThing/Info.plist;
@@ -363,6 +496,7 @@
 		};
 		D58F96301F541ED60091F9E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423D244D97A37BB8A45934E3 /* Pods-LedInternetOfThingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,6 +511,7 @@
 		};
 		D58F96311F541ED60091F9E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF08ECEA9A0DA168C2336643 /* Pods-LedInternetOfThingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
